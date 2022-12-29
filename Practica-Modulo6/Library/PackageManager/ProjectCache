@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638077910984222878
+      ticks: 638078815513536614
     m_Hash: 3514944958
   m_LockFileStatus:
     m_FilePath: C:/Unity/Practica-Modulo6/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638077911089789105
+      ticks: 638078815513692293
     m_Hash: 3518015605
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

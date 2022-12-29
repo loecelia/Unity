@@ -53,8 +53,12 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\Modulo7\Scripts\Tarea7.cs" />
     <Compile Include="Assets\Scenes\scripts\CubeSpawner.cs" />
     <Compile Include="Assets\Scenes\scripts\CreaCubodeCero.cs" />
+    <Compile Include="Assets\Scenes\scripts\CreaCubo1.cs" />
+    <Compile Include="Assets\Scenes\scripts\CreaCubo2.cs" />
+    <Compile Include="Assets\Scenes\scripts\CreaCubo3.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
