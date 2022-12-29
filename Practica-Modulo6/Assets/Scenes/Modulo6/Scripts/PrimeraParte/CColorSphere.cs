@@ -5,6 +5,7 @@ using UnityEngine;
 public class CColorSphere : MonoBehaviour
 {
     public GameObject sphere;
+    public bool objeto1 = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,20 @@ public class CColorSphere : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Color c = new Color(Random.value, Random.value, Random.value);
-        sphere.GetComponent<MeshRenderer>().material.color = c;
+        //Color c = new Color(Random.value, Random.value, Random.value);
+        //sphere.GetComponent<MeshRenderer>().material.color = c;
+        
+        if (objeto1 == true)
+        {
+            sphere.GetComponent<MeshRenderer>().material.color = Color.white;
+            objeto1 = false;
+        }
+        else
+        {
+            sphere.GetComponent<MeshRenderer>().material.color = Color.black;
+            objeto1 = true;
+        }
+            
+
     }
 }
