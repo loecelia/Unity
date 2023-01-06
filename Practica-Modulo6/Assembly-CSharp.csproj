@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scenes\Modulo6\Scripts\PrimeraParte\CColorMatCapsula.cs" />
     <Compile Include="Assets\Scenes\Modulo6\CreaCubodeCero.cs" />
     <Compile Include="Assets\Scenes\Modulo6\Scripts\PrimeraParte\CColorMatEsfera.cs" />
+    <Compile Include="Assets\Scenes\Modulo9\EjerciciosdeCiclosyArreglos.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
