@@ -57,14 +57,15 @@
     <Compile Include="Assets\Scenes\Modulo7\Scripts\Tarea7.cs" />
     <Compile Include="Assets\Scenes\Modulo6\Scripts\SegundaParte\CreaCubo3.cs" />
     <Compile Include="Assets\Scenes\Modulo6\Scripts\PrimeraParte\CColorMatCubo.cs" />
+    <Compile Include="Assets\Scenes\Modulo6\Scripts\PrimeraParte\CColorSphere.cs" />
     <Compile Include="Assets\Scenes\Modulo6\Scripts\PrimeraParte\CubeSpawner.cs" />
     <Compile Include="Assets\Scenes\Modulo6\Scripts\SegundaParte\CreaCubo2.cs" />
     <Compile Include="Assets\Scenes\Modulo6\Scripts\SegundaParte\CreaCubo1.cs" />
+    <Compile Include="Assets\Scenes\Modulo6\Scripts\PrimeraParte\CColorCapsule.cs" />
     <Compile Include="Assets\Scenes\Modulo6\Scripts\PrimeraParte\CColorMatCapsula.cs" />
     <Compile Include="Assets\Scenes\Modulo6\CreaCubodeCero.cs" />
     <Compile Include="Assets\Scenes\Modulo6\Scripts\PrimeraParte\CColorMatEsfera.cs" />
-    <Compile Include="Assets\Scenes\Modulo6\Scripts\PrimeraParte\CColorCapsule.cs" />
-    <Compile Include="Assets\Scenes\Modulo6\Scripts\PrimeraParte\CColorSphere.cs" />
+    <Compile Include="Assets\Scenes\Modulo11\Ejercicios_estructuras.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
