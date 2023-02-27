@@ -11,9 +11,9 @@ public class Bloque_Madera : Bloque
         
     }
 
-    public override void RebotarBola()
+    public override void RebotarBola(Collision collision)
     {
-        base.RebotarBola();
+        base.RebotarBola(collision);
     }
 
 }

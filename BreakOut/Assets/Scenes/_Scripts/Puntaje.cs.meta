@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bc9dc8d4ecbd17346ae9dd5ec72ec683
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - transformPuntajeAlto: {instanceID: 0}
+  - transformPuntajeActual: {instanceID: 0}
+  - textoPuntajeAlto: {instanceID: 0}
+  - textoActual: {instanceID: 0}
+  - puntajeAltoSO: {fileID: 11400000, guid: 656a2f0a9b898e049831aee930ba11a8, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
