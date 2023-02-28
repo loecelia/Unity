@@ -40,10 +40,10 @@ public class ControlBordes : MonoBehaviour
             pos.y = altoCamara - radio;
             salioArriba = true;
         }
-        if (pos.y > -altoCamara + radio)
+        if (pos.y < -altoCamara + radio)
         {
             pos.y = -altoCamara + radio;
-            //salioAbajo = true;
+            salioAbajo = true;
         }
         estaEnPantalla = !(salioAbajo || salioArriba || salioDerecha || salioIzquierda);
         if (mantenerEnPantalla && !estaEnPantalla)

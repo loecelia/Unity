@@ -6,12 +6,13 @@ using UnityEngine.Events;
 public class Bola : MonoBehaviour
 {
     public bool isGameStarted = false;
-    [SerializeField] public float velocidadBola = 10f;
+    [SerializeField] public float velocidadBola;
     Vector3 ultimaPosicion = Vector3.zero;
     Vector3 direccion = Vector3.zero;
     new Rigidbody rigidbody;
     private ControlBordes control;
     public UnityEvent BolaDestruida;
+    public Opciones ObtenerVelocidad;
 
     private void Awake()
     {
@@ -26,6 +27,7 @@ public class Bola : MonoBehaviour
         this.transform.position = posicionInicial;
         this.transform.SetParent(GameObject.FindGameObjectWithTag("Jugador").transform);
         rigidbody = this.gameObject.GetComponent<Rigidbody>();
+        velocidadBola = (float)ObtenerVelocidad.velocidadBola; 
     }
 
     // Update is called once per frame
@@ -45,8 +47,8 @@ public class Bola : MonoBehaviour
             direccion = direccion.normalized;
             rigidbody.velocity = velocidadBola * direccion;
             control.salioArriba = false;
-            //control.enabled = false;
-            //Invoke("HabilitarControl", 0.2f);
+            control.enabled = false;
+            Invoke("HabilitarControl", 0.1f);
 
         }
 
@@ -58,8 +60,8 @@ public class Bola : MonoBehaviour
             direccion = direccion.normalized;
             rigidbody.velocity = velocidadBola * direccion;
             control.salioDerecha = false;
-            //control.enabled = false;
-            //Invoke("HabilitarControl", 0.5f);
+            control.enabled = false;
+            Invoke("HabilitarControl", 0.1f);
         }
 
         if (control.salioIzquierda)
@@ -70,8 +72,8 @@ public class Bola : MonoBehaviour
             direccion = direccion.normalized;
             rigidbody.velocity = velocidadBola * direccion;
             control.salioIzquierda = false;
-            //control.enabled = false;
-            //Invoke("HabilitarControl", 0.5f);
+            control.enabled = false;
+            Invoke("HabilitarControl", 0.1f);
         }
 
         if (Input.GetKey(KeyCode.Space)||Input.GetButton("Submit"))

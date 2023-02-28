@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1648884513233943346}
   - component: {fileID: 4949832108299895309}
   - component: {fileID: 5183913951020314530}
-  - component: {fileID: 7059198295625329561}
+  - component: {fileID: -4056645185492276953}
   m_Layer: 0
   m_Name: Bloque_Piedra
   m_TagString: Untagged
@@ -113,7 +113,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
---- !u!114 &7059198295625329561
+--- !u!114 &-4056645185492276953
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,3 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resistencia: 1
+  AumentarPuntaje:
+    m_PersistentCalls:
+      m_Calls: []
+  ObtenerDificultad: {fileID: 11400000, guid: 1fc41f5cbef8f4440b7a18d187369f2c, type: 2}

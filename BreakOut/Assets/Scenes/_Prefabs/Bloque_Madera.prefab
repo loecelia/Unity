@@ -126,3 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resistencia: 1
+  AumentarPuntaje:
+    m_PersistentCalls:
+      m_Calls: []
+  ObtenerDificultad: {fileID: 11400000, guid: 1fc41f5cbef8f4440b7a18d187369f2c, type: 2}

@@ -59,11 +59,15 @@
     <Compile Include="Assets\Scenes\_Scripts\DropDownDificultad.cs" />
     <Compile Include="Assets\Scenes\_Scriptable_Objects\AdministradorDePersistencia.cs" />
     <Compile Include="Assets\Scenes\_Scriptable_Objects\Opciones.cs" />
+    <Compile Include="Assets\Scenes\_Scripts\AdministradorVidas.cs" />
+    <Compile Include="Assets\Scenes\_Scriptable_Objects\PuntajeAltoN2.cs" />
     <Compile Include="Assets\Scenes\_Scriptable_Objects\PuntajePersistente.cs" />
     <Compile Include="Assets\Scenes\_Scriptable_Objects\PuntajeAlto.cs" />
     <Compile Include="Assets\Scenes\_Scripts\MenuPrincipal.cs" />
+    <Compile Include="Assets\Scenes\_Scriptable_Objects\PuntajeAltoN3.cs" />
     <Compile Include="Assets\Scenes\_Scripts\Bloque_Madera.cs" />
     <Compile Include="Assets\Scenes\_Scripts\Bola.cs" />
+    <Compile Include="Assets\Scenes\_Scripts\AdministradorBloques.cs" />
     <Compile Include="Assets\Scenes\_Scripts\Bloque_Ladrillo.cs" />
     <Compile Include="Assets\Scenes\_Scripts\MuestraSuscriptor.cs" />
     <Compile Include="Assets\Scenes\_Scripts\Puntaje.cs" />
@@ -71,15 +75,13 @@
     <Compile Include="Assets\Scenes\_Scripts\Bloque_Aluminio.cs" />
     <Compile Include="Assets\Scenes\_Scripts\Bloque.cs" />
     <Compile Include="Assets\Scenes\_Scripts\Jugador.cs" />
+    <Compile Include="Assets\Scenes\_Scripts\MenuFinNivel.cs" />
     <Compile Include="Assets\Scenes\_Scripts\MuestraEventos.cs" />
     <Compile Include="Assets\Scenes\_Scripts\Bloque_Piedra.cs" />
     <Compile Include="Assets\Scenes\_Scripts\Bloque_Goma.cs" />
     <Compile Include="Assets\Scenes\_Scripts\SliderVelocidad.cs" />
     <Compile Include="Assets\Scenes\_Scripts\ControlBordes.cs" />
     <Compile Include="Assets\Scenes\_Scripts\MenuPausa.cs" />
-    <Compile Include="Assets\Scenes\_Scripts\MenuFinNivel.cs" />
-    <Compile Include="Assets\Scenes\_Scripts\AdministradorBloques.cs" />
-    <Compile Include="Assets\Scenes\_Scripts\AdministradorVidas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
