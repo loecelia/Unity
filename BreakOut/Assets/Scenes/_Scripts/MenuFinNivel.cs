@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MenuFinNivel : MonoBehaviour
 {
-   public void SiguienteNivel()
+    //private int timeScale;
+    public void SiguienteNivel()
     {
         var siguienteNivel = SceneManager.GetActiveScene().buildIndex + 1;
         if(SceneManager.sceneCountInBuildSettings > siguienteNivel)

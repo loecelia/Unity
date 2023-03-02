@@ -35,12 +35,12 @@ public class ControlBordes : MonoBehaviour
             pos.x = -anchoCamara + radio;
             salioIzquierda = true;
         }
-        if (pos.y > altoCamara - radio)
+        if (pos.y > altoCamara - radio + Camera.main.transform.position.y)
         {
             pos.y = altoCamara - radio;
             salioArriba = true;
         }
-        if (pos.y < -altoCamara + radio)
+        if (pos.y < -altoCamara + radio + Camera.main.transform.position.y)
         {
             pos.y = -altoCamara + radio;
             salioAbajo = true;

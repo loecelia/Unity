@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AdministradorVidas : MonoBehaviour
 {
+    private int timeScale;
     [HideInInspector] public List<GameObject> vidas;
     public GameObject bolaPrefab;
     private Bola bolaScript;
@@ -28,6 +29,7 @@ public class AdministradorVidas : MonoBehaviour
         if(vidas.Count <= 0)
         {
             MenuFinJuego.SetActive(true);
+            Time.timeScale = 0;
             return;
         }
         var bola = Instantiate(bolaPrefab) as GameObject;

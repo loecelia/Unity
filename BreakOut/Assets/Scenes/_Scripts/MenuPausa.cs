@@ -7,16 +7,20 @@ public class MenuPausa : MonoBehaviour
 {
     public GameObject menuPausa;
     public GameObject menuOpciones;
+    private int timeScale;
 
     public void MostrarMenuPausa()
     {
+        Time.timeScale = 0;
         menuPausa.SetActive(true);
         if (menuOpciones.activeInHierarchy) menuOpciones.SetActive(false);
     }
 
     public void OcultarMenuPausa()
     {
+        
         menuPausa.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void RegresarPantallaPrincipal()
